@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite" verbose="5">
+  <test  parallel="classes" name="Test" thread-count="5">
+    <classes>
+      <class name="week4.day4.SFCreateNewOpportunity"/>
+      <class name="week4.day4.SFCreateOpportunityWithMissingFields"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
